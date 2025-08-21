@@ -2,7 +2,7 @@
 
 A comprehensive GitHub repository analysis tool that identifies code issues, bugs, and improvement opportunities using advanced static analysis and AI-powered insights.
 
-🔗 [IssueAnalyzer](https://loan-approval-chatbot.streamlit.app/)
+🔗 [IssueAnalyzer](https://issueanalyzer.streamlit.app/)
 
 ## Features
 
