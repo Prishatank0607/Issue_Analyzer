@@ -74,6 +74,8 @@ streamlit run app.py
 Create a `.env` file with the following variables:
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
+USE_GEMINI_CLI=true
+GEMINI_CLI_PATH=/usr/local/bin/gemini
 ```
 
 ### Supported File Types
