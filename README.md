@@ -24,33 +24,30 @@ A comprehensive GitHub repository analysis tool that identifies code issues, bug
 
 ### Installation
 
-1. **Clone the repository**:
+## Installation Guide
 
-   ```bash
-   git clone <https://github.com/Prishatank0607/Issue_Analyzer>
-   cd IssueAnalyzer
-   ```
+```bash
+# 1. Clone the repository
+git clone https://github.com/Prishatank0607/Issue_Analyzer
+cd Issue_Analyzer
 
-3. **Install dependencies**:
-   
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-4. **Configure API keys** (optional):
-   
-   ```bash
-   cp .env.example .env
-   # Edit .env, add your Gemini API key and Gemini CLI path
-   ```
+# 2. Install dependencies
+pip install -r requirements.txt
 
-6. **Run the application**:
-   
-   ```bash
-   streamlit run app.py
-   ```
+# 3. Configure API keys (optional)
+cp .env.example .env
+# Edit .env and add your Gemini API key and Gemini CLI path
 
-8. **Open your browser** and navigate to `http://localhost:8501`
+# ⚡ Important:
+# If you want to use Gemini CLI, make sure you download it 
+# and then update the path in the code so it can be accessed.
+
+# 4. Run the application
+streamlit run app.py
+
+# 5. **Open your browser** and navigate to `http://localhost:8501`
+```
+
 
 ## Deployment
 
