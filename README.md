@@ -22,7 +22,6 @@ A comprehensive GitHub repository analysis tool that identifies code issues, bug
 - Gemini API key (optional, for enhanced AI analysis)
 - Gemini CLI
 
-### Installation
 
 ## Installation Guide
 
@@ -38,9 +37,9 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env and add your Gemini API key and Gemini CLI path
 
-# ⚡ Important:
-# If you want to use Gemini CLI, make sure you download it 
-# and then update the path in the code so it can be accessed.
+# Important:
+If you want to use Gemini CLI, make sure you download it 
+and then update the path in the code so it can be accessed.
 
 # 4. Run the application
 streamlit run app.py
